@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="CCEETL01" application="CCEE" version="01" country="CO" language="ES">
+	<paramsIn>
+		<parameter order="1" name="personalId" mandatory="1" type="String" size="10"/>
+	</paramsIn>
+	<paramsOut/>
+	<description>transaction consulting candidate existence</description>
+</transaction>

@@ -1,0 +1,13 @@
+{
+	"services": [
+		{
+			"logicalId": "sendOtpValidationCreateChallengeV0",
+			"registryId": "SMGG20221607",
+			"input": {
+				"parameters": [],
+				"payload": []
+			},
+			"output": []
+		}
+	]
+}

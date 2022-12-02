@@ -1,0 +1,28 @@
+package com.bbva.cacd.sendotpvalidationchallengev0.facade.v0.mapper;
+
+import com.bbva.cacd.sendotpvalidationchallengev0.business.v0.dto.BDtoInCreateChallengePost;
+import com.bbva.cacd.sendotpvalidationchallengev0.business.v0.dto.BDtoOutCreateChallengePost;
+import com.bbva.cacd.sendotpvalidationchallengev0.facade.v0.dto.DtoInCreateChallengePost;
+import com.bbva.cacd.sendotpvalidationchallengev0.facade.v0.dto.DtoOutCreateChallengePost;
+import java.util.List;
+import org.mapstruct.Mapper;
+
+@Mapper
+public interface CreateChallengePostMapper {
+
+  BDtoInCreateChallengePost dtoInCreateChallengePostToBDtoInCreateChallengePost(DtoInCreateChallengePost dtoInCreateChallengePost);
+
+  DtoInCreateChallengePost bDtoInCreateChallengePostToDtoInCreateChallengePost(BDtoInCreateChallengePost bDtoInCreateChallengePost);
+
+  List<BDtoInCreateChallengePost> dtoInListCreateChallengePostToBDtoInListCreateChallengePost(List<DtoInCreateChallengePost> dtoInListCreateChallengePost);
+
+  List<DtoInCreateChallengePost> bDtoInListCreateChallengePostToDtoInListCreateChallengePost(List<BDtoInCreateChallengePost> bDtoInListCreateChallengePost);
+
+  BDtoOutCreateChallengePost dtoOutCreateChallengePostToBDtoOutCreateChallengePost(DtoOutCreateChallengePost dtoOutCreateChallengePost);
+
+  DtoOutCreateChallengePost bDtoOutCreateChallengePostToDtoOutCreateChallengePost(BDtoOutCreateChallengePost bDtoOutCreateChallengePost);
+
+  List<BDtoOutCreateChallengePost> dtoOutListCreateChallengePostToBDtoOutListCreateChallengePost(List<DtoOutCreateChallengePost> dtoOutListCreateChallengePost);
+
+  List<DtoOutCreateChallengePost> bDtoOutListCreateChallengePostToDtoOutListCreateChallengePost(List<BDtoOutCreateChallengePost> bDtoOutListCreateChallengePost);
+}

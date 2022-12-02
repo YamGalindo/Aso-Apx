@@ -1,0 +1,15 @@
+aso-metadata:
+    uuaa            : cacd
+    sn              : SNGG20220140
+    name            : send-otp-validation
+    type            : service
+    country         : co
+    version         : 0.1.0-SNAPSHOT
+    platformVersion : R4
+    flavour         : old
+    namespace       : co.cacd.app-id-1174121.dsg
+    repoName        : SendOtpValidationChallengeV0
+    multilocal      : false
+    catalogVersions :
+        SMGG20221607: 0.1.0
+
